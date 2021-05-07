@@ -1261,6 +1261,7 @@
 				<Item> <cTextId>PM_PANE_FEE</cTextId> <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_HOME_FEED</MenuUniqueId>	</Item>
 				<!-- <Item> <cTextId>PM_PANE_NEWS</cTextId> <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_HOME_NEWSWIRE</MenuUniqueId>	</Item> -->
 				<!-- <Item> <cTextId>PM_PANE_XBHELP</cTextId> <MenuAction>MENU_OPTION_ACTION_TRIGGER</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_HELP</MenuUniqueId> <Contexts>*ALL*, DURANGO</Contexts></Item> -->
+				<Item> <MenuAction>MENU_OPTION_ACTION_FILL_CONTENT_FROM_SCRIPT</MenuAction> </Item>
 			</MenuItems>
 			
 			<ButtonList>
@@ -1307,6 +1308,7 @@
 				<Item> <cTextId>PM_PANE_SAV</cTextId> <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_SETTINGS_SAVEGAME</MenuUniqueId> <Contexts>*ANY*,InSP</Contexts> </Item>
 				<Item> <cTextId>MO_SIXAXIS</cTextId>  <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_SETTINGS_SIXAXIS</MenuUniqueId> <Contexts>*ALL*,PS4</Contexts></Item>
 				<!--<Item> <cTextId>PM_PANE_FB</cTextId>  <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_SETTINGS_FACEBOOK</MenuUniqueId> <Contexts>*NONE*,OnLandingPage,FB_Disabled</Contexts> </Item>-->
+				<Item> <MenuAction>MENU_OPTION_ACTION_FILL_CONTENT_FROM_SCRIPT</MenuAction> </Item>
 			</MenuItems>
 			
 			<ButtonList>
@@ -1969,6 +1971,7 @@
 				<Item> <cTextId>PM_PANE_LEAVE</cTextId> <MenuAction>MENU_OPTION_ACTION_TRIGGER</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_SHOW_ACCOUNT_PICKER</MenuUniqueId> <Contexts>*ALL*, x64</Contexts></Item>
 				<Item> <cTextId>PM_PANE_QUIT</cTextId> <MenuAction>MENU_OPTION_ACTION_LINK</MenuAction> <MenuUniqueId>MENU_UNIQUE_ID_EXIT_TO_WINDOWS</MenuUniqueId> <Contexts>*ALL*, x64</Contexts></Item>
 				<Item> <MenuAction>MENU_OPTION_ACTION_FILL_CONTENT</MenuAction> </Item>
+				<Item> <MenuAction>MENU_OPTION_ACTION_FILL_CONTENT_FROM_SCRIPT</MenuAction> </Item>
 			</MenuItems>
 
 			<ButtonList>
